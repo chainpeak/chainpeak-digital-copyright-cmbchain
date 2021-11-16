@@ -1,0 +1,31 @@
+{
+  "name": "nipeak-digital-copyright-cmbchain",
+  "version": "1.0.0",
+  "description": "数字版权项目（招行一链通）",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nipeak/nipeak-digital-copyright-cmbchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nipeak/nipeak-digital-copyright-cmbchain/issues"
+  },
+  "homepage": "https://github.com/nipeak/nipeak-digital-copyright-cmbchain#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "2.5.1",
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "axios": "^0.22.0",
+    "bn.js": "^5.2.0",
+    "chai": "^4.3.4",
+    "truffle-plugin-verify":"0.5.17",
+    "truffle-contract-size":"2.0.1"
+  }
+}
